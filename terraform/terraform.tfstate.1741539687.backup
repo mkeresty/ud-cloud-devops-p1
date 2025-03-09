@@ -1,0 +1,73 @@
+{
+  "version": 4,
+  "terraform_version": "1.11.0",
+  "serial": 2,
+  "lineage": "b75fc454-7c39-af65-c780-6b47061cfd61",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "data",
+      "type": "azurerm_image",
+      "name": "main",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "data_disk": [],
+            "id": "/subscriptions/a3a536c2-3690-4c5f-8032-998a8dc3234e/resourceGroups/Azuredevops/providers/Microsoft.Compute/images/project_1",
+            "location": "eastus",
+            "name": "project_1",
+            "name_regex": null,
+            "os_disk": [
+              {
+                "blob_uri": "",
+                "caching": "ReadWrite",
+                "managed_disk_id": "/subscriptions/a3a536c2-3690-4c5f-8032-998a8dc3234e/resourceGroups/pkr-Resource-Group-c4g86jyytn/providers/Microsoft.Compute/disks/pkrosc4g86jyytn",
+                "os_state": "Generalized",
+                "os_type": "Linux",
+                "size_gb": 30
+              }
+            ],
+            "resource_group_name": "Azuredevops",
+            "sort_descending": false,
+            "tags": {
+              "project": "project_1"
+            },
+            "timeouts": null,
+            "zone_resilient": false
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "main",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/a3a536c2-3690-4c5f-8032-998a8dc3234e/resourceGroups/Azuredevops",
+            "location": "southcentralus",
+            "managed_by": "",
+            "name": "Azuredevops",
+            "tags": {
+              "DeploymentId": "275180",
+              "LaunchId": "1346",
+              "LaunchType": "ON_DEMAND_LAB",
+              "TemplateId": "1181",
+              "TenantId": "203"
+            },
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIwIn0="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
