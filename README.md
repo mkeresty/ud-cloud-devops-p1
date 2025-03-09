@@ -50,3 +50,6 @@ terraform init
 ```terraform apply "solution.plan"```
 8. Destroy created resources
 ```terraform destroy```
+
+## Attributions
+[Terraform Docs](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
