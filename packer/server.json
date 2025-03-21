@@ -18,9 +18,9 @@
 	 
 		
         "managed_image_resource_group_name": "Azuredevops",
-        "managed_image_name": "ud_project_1",
+        "managed_image_name": "ud_project",
 	 
-		"location": "southcentralus",
+		"location": "eastus",
 		"vm_size": "Standard_B1s",
 
 		"azure_tags": {

@@ -6,7 +6,7 @@ variable "prefix" {
 
 variable "location" {
   description = "The Azure Region in which all resources will be created."
-  default = "southcentralus"
+  default = "eastus"
 }
 
 variable "admin_username" {
@@ -21,12 +21,12 @@ variable "admin_password" {
 
 variable "subscription_id" {
   description = "The Azure subscription ID"
-  default = "a3a536c2-3690-4c5f-8032-998a8dc3234e"
+  default = "c79adf2b-9d2a-4e3e-95e8-ef51f2624216"
 }
 
 variable "packer_image_name" {
   description = "Image name deployed by packer."
-  default = "ud_project_1"
+  default = "ud_project"
 }
 
 variable "packer_rg" {
